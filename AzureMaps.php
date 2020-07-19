@@ -260,6 +260,7 @@ class AzureMaps extends AbstractHttpProvider implements Provider
             $builder->setCountryCode($result->address->countryCode ?? null);
             $builder->setCountry($result->address->country ?? null);
             $builder->setPostalCode($result->address->extendedPostalCode ?? null);
+            $builder->setLocality($address->address->municipality ?? null);
 
             return $builder->build();
 
@@ -306,6 +307,7 @@ class AzureMaps extends AbstractHttpProvider implements Provider
             $builder->setCountryCode($address->address->countryCode ?? null);
             $builder->setCountry($address->address->country ?? null);
             $builder->setPostalCode($address->address->extendedPostalCode ?? null);
+            $builder->setLocality($address->address->municipality ?? null);
 
             return $builder->build();
 
