@@ -7,7 +7,7 @@
          bootstrap="vendor/autoload.php"
 >
     <php>
-        <server name="AZURE_MAPS_SUBSCRIPTION_KEY" value="YOUR_API_KEY" />
+        <server name="AZURE_MAPS_SUBSCRIPTION_KEY" value="jWBSRdz8guQOhUVK-3m6_7Oo2K7J-p6dGQICxD5zQBc" />
         <server name="USE_CACHED_RESPONSES" value="true" />
     </php>
 
