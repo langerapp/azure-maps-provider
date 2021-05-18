@@ -13,17 +13,18 @@
         "php": "^8.0",
         "geocoder-php/common-http": "4.4.0",
         "willdurand/geocoder": "^4.4.0",
-        "ext-json": "*"
+        "ext-json": "*",
+        "php-http/curl-client": "^2.2.0"
     },
     "provide": {
         "geocoder-php/provider-implementation": "1.0"
     },
     "require-dev": {
         "geocoder-php/provider-integration-tests": "^1.5.0",
-        "php-http/curl-client": "^2.2.0",
         "php-http/message": "^1.11.0",
         "phpunit/phpunit": "^9.5"
     },
+
     "extra": {
         "branch-alias": {
             "dev-master": "5.0-dev"
